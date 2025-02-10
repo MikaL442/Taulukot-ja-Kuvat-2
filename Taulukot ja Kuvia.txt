@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            width: 600px;
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 100px;
+            height: auto;
+        }
+        .caption {
+            font-size: 0.8em;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="text-align: center;">Image Gallery</h1>
+
+<div class="gallery">
+    <div>
+        <img src="images/image1.jpg" alt="Image 1">
+        <p class="caption">First Image</p>
+    </div>
+    <div>
+        <img src="images/image2.jpg" alt="Image 2">
+        <p class="caption">Second Image</p>
+    </div>
+    <div>
+        <img src="images/image3.jpg" alt="Image 3">
+        <p class="caption">Third Image</p>
+    </div>
+    <div>
+        <img src="images/image4.jpg" alt="Image 4">
+        <p class="caption">Fourth Image</p>
+    </div>
+    <div>
+        <img src="images/image5.jpg" alt="Image 5">
+        <p class="caption">Fifth Image</p>
+    </div>
+    <div>
+        <img src="images/image6.jpg" alt="Image 6">
+        <p class="caption">Sixth Image</p>
+    </div>
+    <div>
+        <img src="images/image7.jpg" alt="Image 7">
+        <p class="caption">Seventh Image</p>
+    </div>
+    <div>
+        <img src="images/image8.jpg" alt="Image 8">
+        <p class="caption">Eighth Image</p>
+    </div>
+    <div>
+        <img src="images/image9.jpg" alt="Image 9">
+        <p class="caption">Ninth Image</p>
+    </div>
+    <div>
+        <img src="images/image10.jpg" alt="Image 10">
+        <p class="caption">Tenth Image</p>
+    </div>
+    <div>
+        <img src="images/image11.jpg" alt="Image 11">
+        <p class="caption">Eleventh Image</p>
+    </div>
+    <div>
+        <img src="images/image12.jpg" alt="Image 12">
+        <p class="caption">Twelfth Image</p>
+    </div>
+    <div>
+        <img src="images/image13.jpg" alt="Image 13">
+        <p class="caption">Thirteenth Image</p>
+    </div>
+    <div>
+        <img src="images/image14.jpg" alt="Image 14">
+        <p class="caption">Fourteenth Image</p>
+    </div>
+    <div>
+        <img src="images/image15.jpg" alt="Image 15">
+        <p class="caption">Fifteenth Image</p>
+    </div>
+    <div>
+        <img src="images/image16.jpg" alt="Image 16">
+        <p class="caption">Sixteenth Image</p>
+    </div>
+</div>
+
+</body>
+</html>
